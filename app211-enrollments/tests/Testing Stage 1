@@ -1,0 +1,19 @@
+Course datasci = new Course("BB1DSC1", "BSc Data Science");
+datasci.print();
+ --------------------------------
+   App211: Course Details
+ --------------------------------
+
+ Course Code: BB1DSC1: BSc Data Science
+
+Student nicole = new Student("Nicole", 22044097);
+nicole.print();
+ Student ID: 22044097 Name: Nicole
+nicole.enrol(datasci);
+nicole.printCourse();
+ --------------------------------
+   App211: Course Details
+ --------------------------------
+
+ Course Code: BB1DSC1: BSc Data Science
+
