@@ -1,0 +1,21 @@
+Course data = new Course("BB1DSC1", "BSc (Hons) Data Science");
+Module module1 = new Module("CO452", "Programming");
+data.addModule(module1);
+data.print();
+ --------------------------------
+   App211: Course Details
+ --------------------------------
+
+ Course Code: BB1DSC1: BSc (Hons) Data Science
+
+Module programming = new Module("CO452", "Programming Concepts");
+web.addModule(programming);
+web.print();
+ --------------------------------
+   App211: Course Details
+ --------------------------------
+
+ Course Code: BT12: Web
+
+ Module Code: CO452: Programming Concepts Credit 15
+

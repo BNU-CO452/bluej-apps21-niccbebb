@@ -7,13 +7,15 @@ import java.util.*;
  * @author Nicole Bebb
  * @version 1.0 12/11/2021
  */
-public class Course extends Module
+public class Course 
 {
     // A unique identifier e.g. BT1CTG1
     private String code;
     // The full title including qualification and subject
     private String title;
+    
     private Module module;
+    
     /**
      * Create a Course with a maximum number of enrolments. 
      * All other details are set to unkown values.
@@ -36,7 +38,7 @@ public class Course extends Module
         System.out.println(" Course Code: " + code + ": " + title);
         System.out.println();
         
-        moduleprint();
+        module.print();
     }
     
     /**
