@@ -18,6 +18,8 @@ public class Student
     // The marks awarded for the modules on the course
     private ArrayList<ModuleMark> marks;
     
+    private Random randomMark;
+    
     /**
      * This constructor creates a new student with a
      * fixed name and id. 
@@ -34,7 +36,7 @@ public class Student
     {
         this.name = name;
         this.id = id;
-        
+        randomMark = new Random();
         marks = new ArrayList<ModuleMark>();
     }
 
@@ -71,11 +73,10 @@ public class Student
         for(Module module : course.modules)
         {
             ModuleMark mark = new ModuleMark(module);
-            mark.setMark(value);
+            mark.setMark(randomMark.nextInt(100));
+            //value = value + 10;
             
-            value = value + 10;
-            
-            marks.add(mark);
+            addMark(mark);
         }
     }
     

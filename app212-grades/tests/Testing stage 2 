@@ -1,0 +1,51 @@
+Student nicole = new Student();
+Course dataSci = new Course();
+Module co452 = new Module("CO452", "Programming Concepts");
+dataSci.addModule(co452);
+nicole.enrol(dataSci);
+ModuleMark nicoleCo452Mark = new ModuleMark(co452);
+nicoleCo452Mark.setMark(64);
+nicole.addMark(nicoleCo452Mark);
+Module co450 = new Module("CO450", "Computer Architectures");
+dataSci.addModule(co450);
+ModuleMark ncioleCo450Mark = new ModuleMark(co450);
+ncioleCo450Mark.setMark(80);
+nicole.addMark(ncioleCo450Mark);
+Module co456 = new Module("CO456", "Web Development");
+dataSci.addModule(co456);
+ModuleMark nicoleCo456Mark = new ModuleMark(co456);
+nicoleCo456Mark.setMark(70);
+nicole.addMark(nicoleCo456Mark);
+Module co405 = new Module("CO405", "Database Design");
+dataSci.addModule(co405);
+ModuleMark nicoleCo405Mark = new ModuleMark(co405);
+nicoleCo405Mark.setMark(86);
+nicole.addMark(nicoleCo405Mark);
+nicole.printTranscript();
+ ------------------------------------
+ App21-02: Exam Board Transcript 2021
+        by student name
+ ------------------------------------
+ Student ID: 22044097, Nicole
+
+ Course BB1DSC1: BSc Data Science
+
+ CO452: Programming Concepts	  15 credits
+ CO450: Computer Architectures	  15 credits
+ CO456: Web Development	  15 credits
+ CO405: Database Design	  15 credits
+
+ ---- 	 -------------------- 	 ------	 ---- 	 -----
+ Code 	 Module 		Credit	 Mark 	 Grade
+ ---- 	 -------------------- 	 ------	 ---- 	 -----
+
+ CO452: Programming Concepts	  15	64B
+
+ CO450: Computer Architectures	  15	80A
+
+ CO456: Web Development	  15	70A
+
+ CO405: Database Design	  15	86A
+
+
+ Final Course Grade = A
