@@ -1,0 +1,133 @@
+StockDemo nicStockDem1 = new StockDemo();
+
+ Nicole's Stock List
+ ====================
+
+ ID 101: Apple iPhone 3G stock level: 0
+ ID 102: Apple iPhone 4S stock level: 0
+ ID 103: Apple iPhone 5C stock level: 0
+ ID 104: Apple iPhone 6 stock level: 0
+ ID 105: Apple iPhone 8 stock level: 0
+ ID 106: Apple iPhone XR stock level: 0
+ ID 107: Apple iPhone 11 stock level: 0
+ ID 108: Apple iPhone 11 Pro stock level: 0
+ ID 109: Apple iPhone 12 stock level: 0
+ ID 110: Apple iPhone 13 Pro Max stock level: 0
+
+Bought 300 of Apple iPhone 3G
+Bought 300 of Apple iPhone 4S
+Bought 300 of Apple iPhone 5C
+Bought 300 of Apple iPhone 6
+Bought 500 of Apple iPhone 8
+Bought 500 of Apple iPhone XR
+Bought 700 of Apple iPhone 11
+Bought 700 of Apple iPhone 11 Pro
+Bought 800 of Apple iPhone 12
+Bought 900 of Apple iPhone 13 Pro Max
+
+ Nicole's Stock List
+ ====================
+
+ ID 101: Apple iPhone 3G stock level: 300
+ ID 102: Apple iPhone 4S stock level: 300
+ ID 103: Apple iPhone 5C stock level: 300
+ ID 104: Apple iPhone 6 stock level: 300
+ ID 105: Apple iPhone 8 stock level: 500
+ ID 106: Apple iPhone XR stock level: 500
+ ID 107: Apple iPhone 11 stock level: 700
+ ID 108: Apple iPhone 11 Pro stock level: 700
+ ID 109: Apple iPhone 12 stock level: 800
+ ID 110: Apple iPhone 13 Pro Max stock level: 900
+
+Sold 202 of Apple iPhone 3G
+Sold 111 of Apple iPhone 4S
+Can't sell 600 of Apple iPhone 5Cbecuase only have 300
+Can't sell 300 of Apple iPhone 6becuase only have 300
+Can't sell 500 of Apple iPhone 8becuase only have 500
+Sold 444 of Apple iPhone XR
+Sold 500 of Apple iPhone 11
+Sold 600 of Apple iPhone 11 Pro
+Can't sell 800 of Apple iPhone 12becuase only have 800
+Sold 800 of Apple iPhone 13 Pro Max
+
+ Nicole's Stock List
+ ====================
+
+ ID 101: Apple iPhone 3G stock level: 98
+ ID 102: Apple iPhone 4S stock level: 189
+ ID 103: Apple iPhone 5C stock level: 300
+ ID 104: Apple iPhone 6 stock level: 300
+ ID 105: Apple iPhone 8 stock level: 500
+ ID 106: Apple iPhone XR stock level: 56
+ ID 107: Apple iPhone 11 stock level: 200
+ ID 108: Apple iPhone 11 Pro stock level: 100
+ ID 109: Apple iPhone 12 stock level: 800
+ ID 110: Apple iPhone 13 Pro Max stock level: 100
+
+StockDemo nicStockDem1 = new StockDemo();
+
+ Nicole's Stock List
+ ====================
+
+ ID 101: Apple iPhone 3G stock level: 0
+ ID 102: Apple iPhone 4S stock level: 0
+ ID 103: Apple iPhone 5C stock level: 0
+ ID 104: Apple iPhone 6 stock level: 0
+ ID 105: Apple iPhone 8 stock level: 0
+ ID 106: Apple iPhone XR stock level: 0
+ ID 107: Apple iPhone 11 stock level: 0
+ ID 108: Apple iPhone 11 Pro stock level: 0
+ ID 109: Apple iPhone 12 stock level: 0
+ ID 110: Apple iPhone 13 Pro Max stock level: 0
+
+Bought 300 of Apple iPhone 3G
+Bought 300 of Apple iPhone 4S
+Bought 300 of Apple iPhone 5C
+Bought 300 of Apple iPhone 6
+Bought 500 of Apple iPhone 8
+Bought 500 of Apple iPhone XR
+Bought 700 of Apple iPhone 11
+Bought 700 of Apple iPhone 11 Pro
+Bought 800 of Apple iPhone 12
+Bought 900 of Apple iPhone 13 Pro Max
+
+ Nicole's Stock List
+ ====================
+
+ ID 101: Apple iPhone 3G stock level: 300
+ ID 102: Apple iPhone 4S stock level: 300
+ ID 103: Apple iPhone 5C stock level: 300
+ ID 104: Apple iPhone 6 stock level: 300
+ ID 105: Apple iPhone 8 stock level: 500
+ ID 106: Apple iPhone XR stock level: 500
+ ID 107: Apple iPhone 11 stock level: 700
+ ID 108: Apple iPhone 11 Pro stock level: 700
+ ID 109: Apple iPhone 12 stock level: 800
+ ID 110: Apple iPhone 13 Pro Max stock level: 900
+
+Sold 202 of Apple iPhone 3G
+Sold 111 of Apple iPhone 4S
+Can't sell 600 of Apple iPhone 5C becuase only have 300
+Can't sell 300 of Apple iPhone 6 becuase only have 300
+Can't sell 500 of Apple iPhone 8 becuase only have 500
+Sold 444 of Apple iPhone XR
+Sold 500 of Apple iPhone 11
+Sold 600 of Apple iPhone 11 Pro
+Can't sell 800 of Apple iPhone 12 becuase only have 800
+Sold 800 of Apple iPhone 13 Pro Max
+Couldn't find product
+
+ Nicole's Stock List
+ ====================
+
+ ID 101: Apple iPhone 3G stock level: 98
+ ID 102: Apple iPhone 4S stock level: 189
+ ID 103: Apple iPhone 5C stock level: 300
+ ID 104: Apple iPhone 6 stock level: 300
+ ID 105: Apple iPhone 8 stock level: 500
+ ID 106: Apple iPhone XR stock level: 56
+ ID 107: Apple iPhone 11 stock level: 200
+ ID 108: Apple iPhone 11 Pro stock level: 100
+ ID 109: Apple iPhone 12 stock level: 800
+ ID 110: Apple iPhone 13 Pro Max stock level: 100
+
