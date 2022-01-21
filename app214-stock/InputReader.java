@@ -29,12 +29,14 @@ public class InputReader
      */
     public String getString(String prompt)
     {
+        reader = new Scanner(System.in);
+        
         String inputLine = null;
         boolean isValid = false;
         
         while(!isValid)
         {
-            System.out.print(prompt);         // print prompt
+            System.out.print(prompt);
             inputLine = reader.nextLine();
             
             if(!inputLine.isEmpty())
@@ -59,7 +61,9 @@ public class InputReader
         
         while(!isValid)
         {
-            System.out.println(prompt);         // print prompt
+            reader = new Scanner(System.in);
+            
+            System.out.println(prompt);
             number = reader.nextInt();
             
             if(number > 0)
