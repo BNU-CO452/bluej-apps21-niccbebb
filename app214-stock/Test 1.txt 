@@ -1,0 +1,187 @@
+Program.main({ });
+********************************
+  App21-04: Stock Application 
+      by Nicole Bebb
+********************************
+
+    Add:        Add a new product
+    Remove:     Remove an old product
+    Print:      Print all products
+    Quit:       Quit the program
+
+Please enter your choice > print
+
+ Nicole's Stock List
+ ====================
+
+
+********************************
+  App21-04: Stock Application 
+      by Nicole Bebb
+********************************
+
+    Add:        Add a new product
+    Remove:     Remove an old product
+    Print:      Print all products
+    Quit:       Quit the program
+
+Please enter your choice >     VM terminated.
+Program.main({ });
+********************************
+  App21-04: Stock Application 
+      by Nicole Bebb
+********************************
+
+    Add:        Add a new product
+    Remove:     Remove an old product
+    Print:      Print all products
+    Quit:       Quit the program
+
+Please enter your choice > add
+Please enter the ID: 
+101
+Please enter the name of the product: IPhone 3G
+Product 101, IPhone 3G has been ADDED
+********************************
+  App21-04: Stock Application 
+      by Nicole Bebb
+********************************
+
+    Add:        Add a new product
+    Remove:     Remove an old product
+    Print:      Print all products
+    Quit:       Quit the program
+
+Please enter your choice > print
+
+ Nicole's Stock List
+ ====================
+
+ ID 101: IPhone 3G stock level: 0
+
+********************************
+  App21-04: Stock Application 
+      by Nicole Bebb
+********************************
+
+    Add:        Add a new product
+    Remove:     Remove an old product
+    Print:      Print all products
+    Quit:       Quit the program
+
+Please enter your choice > add
+Please enter the ID: 
+102
+Please enter the name of the product: IPhone 4S
+Product 102, IPhone 4S has been ADDED
+********************************
+  App21-04: Stock Application 
+      by Nicole Bebb
+********************************
+
+    Add:        Add a new product
+    Remove:     Remove an old product
+    Print:      Print all products
+    Quit:       Quit the program
+
+Please enter your choice > print
+
+ Nicole's Stock List
+ ====================
+
+ ID 101: IPhone 3G stock level: 0
+ ID 102: IPhone 4S stock level: 0
+
+********************************
+  App21-04: Stock Application 
+      by Nicole Bebb
+********************************
+
+    Add:        Add a new product
+    Remove:     Remove an old product
+    Print:      Print all products
+    Quit:       Quit the program
+
+Please enter your choice > quit
+Program.main({ });
+********************************
+  App21-04: Stock Application 
+      by Nicole Bebb
+********************************
+
+    Add:        Add a new product
+    Remove:     Remove an old product
+    Print:      Print all products
+    Quit:       Quit the program
+
+Please enter your choice > 101
+********************************
+  App21-04: Stock Application 
+      by Nicole Bebb
+********************************
+
+    Add:        Add a new product
+    Remove:     Remove an old product
+    Print:      Print all products
+    Quit:       Quit the program
+
+Please enter your choice > IPhone 3G
+********************************
+  App21-04: Stock Application 
+      by Nicole Bebb
+********************************
+
+    Add:        Add a new product
+    Remove:     Remove an old product
+    Print:      Print all products
+    Quit:       Quit the program
+
+Please enter your choice > print
+
+ Nicole's Stock List
+ ====================
+
+
+********************************
+  App21-04: Stock Application 
+      by Nicole Bebb
+********************************
+
+    Add:        Add a new product
+    Remove:     Remove an old product
+    Print:      Print all products
+    Quit:       Quit the program
+
+Please enter your choice > add
+Please enter the ID: 
+101
+Please enter the name of the product: IPhone 3G
+Product 101, IPhone 3G has been ADDED
+********************************
+  App21-04: Stock Application 
+      by Nicole Bebb
+********************************
+
+    Add:        Add a new product
+    Remove:     Remove an old product
+    Print:      Print all products
+    Quit:       Quit the program
+
+Please enter your choice > print
+
+ Nicole's Stock List
+ ====================
+
+ ID 101: IPhone 3G stock level: 0
+
+********************************
+  App21-04: Stock Application 
+      by Nicole Bebb
+********************************
+
+    Add:        Add a new product
+    Remove:     Remove an old product
+    Print:      Print all products
+    Quit:       Quit the program
+
+Please enter your choice > quit
