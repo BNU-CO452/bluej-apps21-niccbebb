@@ -21,6 +21,7 @@ public class Game
     public final Map MAP;
     private CommandReader reader;
     private boolean gameOver;
+    private Player player;
         
     /**
      * Create the game and initialise its internal map.
@@ -29,6 +30,7 @@ public class Game
     {
         MAP = new Map();
         reader = new CommandReader(this);
+        player = new Player("Nic");
     }
 
     /**
