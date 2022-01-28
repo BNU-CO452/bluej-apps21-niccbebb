@@ -32,7 +32,8 @@ public class Game
         reader = new CommandReader(this);
         player = new Player("Nic");
     }
-
+    
+    
     /**
      *  Main play routine.  Loops until end of play.
      */
@@ -58,8 +59,8 @@ public class Game
     private void printWelcome()
     {
         System.out.println();
-        System.out.println(" Welcome to the World of Zuul!");
-        System.out.println(" World of Zuul is a new, incredibly boring adventure game.");
+        System.out.println(" Welcome to Covid Carnage!");
+        System.out.println(" This game is based on the Corona Virus. ");
         System.out.println(" Type 'help' if you need help.");
         System.out.println();
         System.out.println(MAP.getCurrentLocation().getLongDescription());

@@ -10,6 +10,7 @@ public class Player
     private final String name;
     private int score;
     private int count;
+    private int health;
 
     /**
      * Constructor for objects of class Player
@@ -42,6 +43,16 @@ public class Player
         this.count = count;
     }
     
+    public void setHealth(int health)
+    {
+         this.health = health;
+    }
+    
+    public int getHealth()
+    {
+          return health;
+    }
+    
 
     /** 
      *
@@ -50,5 +61,11 @@ public class Player
     {
         System.out.println("Player ; " + name);
         System.out.println();
+    }
+    
+    public void printStatus()
+    {
+        System.out.println("player status ; ");
+        System.out.println("score = " + score);
     }
 }
