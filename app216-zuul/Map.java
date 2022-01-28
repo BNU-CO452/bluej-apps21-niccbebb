@@ -15,7 +15,7 @@ public class Map
 {
     // Need to add a list of exits
     
-    private Location outside, theater, pub, lab, office;
+    private Location sportsbar, outside, vets, office, gucci, tesco, doctors, isolationzone;
 
     private Location currentLocation;
 
@@ -35,69 +35,129 @@ public class Map
      */
     private void createLocations()
     {
+        createSportsBar();
         createOutside();
-        createTheatre();
-        createPub();
+        createVets();
         createOffice();
-        createLab();
+        createGucci();
+        createTesco();
+        createDoctors();
+        createIsolationZone();
 
-        currentLocation = outside;  // start game outside
+        currentLocation = sportsbar;  // start game in sportsbar
     }
     
     /**
-     * Create the outside and link it to the
-     * theatre, lab and pub
+     * Create the sportsbar and link it to the outside
+     */
+    private void createSportsBar()
+    {
+        sportsbar = new Location("inisde a bar having a drink while watching the football match. Suddenly. BREAKING NEWS comes on the tv. There has been an outbreak of the Corona Virus!! YOUR MISSION IS TO GET TO SAFE ISOLATION ZONE!! Pick up essentials on the way, and at all costs AVOID CONTRACTING COVID");
+        
+        sportsbar.setExit("east", outside);
+    }
+    
+    /**
+     * Create the outside and link it to the sportsbar and vets
      */
     private void createOutside()
     {
-        outside = new Location("outside the main entrance of the university");
+        outside = new Location("sprinting through the park. A box of fask masks are on a bench. Grab the face masks!");
+        
+        outside.setExit("east", vets);
+        
+        outside.setExit("west", sportsbar);
+        sportsbar.setExit("east", outside);
+        
+        outside.setItem(new Item("FaceMask", "the face mask will help protect you against the virus", 101));
         
     }
     
     /**
-     * Create the pub and link it to the outside
+     * Create the vets linked to the outside and office and primark
      */
-    private void createPub()
+    private void createVets()
     {
-        pub = new Location("in the campus pub");
+        vets = new Location("in the vets to pick up your huskey called Alex. He's your sidekick.");
         
-        pub.setExit("east", outside);
-        outside.setExit("west", pub);
+        vets.setExit("east", gucci);
+        
+        vets.setExit("west", outside);
+        outside.setExit("east", vets);
+        
+        vets.setExit("south", office);
+        
+        vets.setItem(new Item("Alex", "This is your doggo, hold him tight overwise he'll escape", 102));
     }
     
     /**
-     * Create the theatre linked to the outside
-     */
-    private void createTheatre()
-    {
-        theater = new Location("in a lecture theater");
-        
-        theater.setExit("west", outside);
-        outside.setExit("east", theater);
-    }
-    
-    /**
-     * Create the office linked to the lab
+     * Create the office linked to the vets
      */
     private void createOffice()
     {
-        office = new Location("in the computing admin office");
+        office = new Location("in your office. The office is a ghost town. Look around for essentials");
         
+        office.setExit("north", vets);
+        vets.setExit("south", office);
+        
+        office.setItem(new Item("HandGel", "PERFECT! Hand Gel will help keep the virus away", 103)); 
     }
     
     /**
-     * Create the lab and link it to the outside and office
+     * Create the gucci and link it to the vets and tesco
      */
-    private void createLab()
+    private void createGucci()
     {
-        // create the Locations
-        lab = new Location("in a computing lab");
+        gucci = new Location("in gucci as you need PPE equipment. Look around for some designer protection");
         
-        lab.setExit("east", office);
-        office.setExit("west", lab);
+        gucci.setExit("south", tesco);
         
-        lab.setExit("north", outside);
-        outside.setExit("south", lab);
+        gucci.setExit("west", vets);
+        vets.setExit("east", gucci);
+        
+        gucci.setItem(new Item("GucciPPE", "You've stolen a pair of gucci overalls. You'll be protected from covid while looking drippyyyyy", 104));
+    }
+    
+    /**
+     * Create the tesco linked to the gucci and doctors
+     */
+    private void createTesco()
+    {
+        tesco = new Location("in Tesco. Everyone is panic buying! QUICK! Grab anything you can!");
+        
+        tesco.setExit("south", doctors);
+        
+        tesco.setExit("north", gucci);
+        gucci.setExit("south", tesco);
+        
+        tesco.setItem(new Item("VODKA", "You have brought 10 bottles of vodka, well done, gotta keep hydrated out here", 105));
+    }
+    
+    /**
+     * Create the doctors linked to the isolationzone and tesco
+     */
+    private void createDoctors()
+    {
+        doctors = new Location("at the Doctors. Decide what do take next");
+        
+        doctors.setExit("west", isolationzone);
+        
+        doctors.setExit("north", tesco);
+        tesco.setExit("south", doctors);
+        
+        doctors.setItem(new Item("Vaccine", "You suffered a major side effect from taking the vaccine. Your head has morphed into a octopus", 106));
+    }
+    
+    /**
+     * Create the isolationzone linked to the doctors
+     */
+    private void createIsolationZone()
+    {
+        isolationzone = new Location("safe and secure");
+        
+        isolationzone.setExit("east", doctors);
+        doctors.setExit("west", isolationzone);
+        
     }
     
     public Location getCurrentLocation()
